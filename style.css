@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} /* this keeps everything tighter I guess??? */
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,6 +22,12 @@ body {
     margin-right: 100px;
     padding: 50px;
     gap: 0px;
+}
+
+.container-1 .text {
+    flex-direction: column;
+    display: flex;
+    gap: 20px
 }
 
 .body {
@@ -73,6 +85,12 @@ body {
     padding-bottom: 100px;
 }
 
+.Quote-Section .container-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .Hero-Main-Text {
     font-size: 48px;
     font-weight: 900;
@@ -108,7 +126,7 @@ body {
     flex-direction: row;
     color: white;
     background-color: #3882F6;
-    width: 800px;
+    width: 1000px;
     padding: 30px;
     border-radius: 10px;
     margin: 48px;
@@ -132,6 +150,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 32px;
 }
 
 .container-2 {
