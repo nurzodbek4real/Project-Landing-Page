@@ -161,6 +161,7 @@ button {
     border-radius: 5px;
     border-color: white;
     border-style:solid;
+    border-width:thin;
 }
 
 h2 {
